@@ -1,0 +1,7 @@
+{
+  "name": "tm-cube-play",
+  "short_name": "tm-cube-play",
+  "description": "Polymer application for playing with 3x3 cube algorithms",
+  "start_url": "/",
+  "display": "standalone"
+}
