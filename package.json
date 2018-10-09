@@ -3,7 +3,10 @@
   "description": "Polymer application for playing with 3x3 cube algorithms",
   "dependencies": {
     "@polymer/polymer": "^3.0.0",
-    "tm-cube-image": "github:tmcmaster/tm-cube-image"
+    "@vaadin/vaadin-combo-box": "^4.2.0-alpha4",
+    "tm-aspect-div": "github:tmcmaster/tm-aspect-div",
+    "tm-cube-image": "github:tmcmaster/tm-cube-image",
+    "tm-generic-app": "github:tmcmaster/tm-generic-app"
   },
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "^2.0.0",
