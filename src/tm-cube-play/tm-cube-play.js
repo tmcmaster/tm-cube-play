@@ -4,11 +4,14 @@ import 'tm-cube-image/tm-cube-image-top';
 import {} from '@polymer/polymer/lib/elements/dom-repeat.js';
 
 import '/node_modules/tm-generic-app/tm-generic-app.js';
+import '/node_modules/tm-cube-image/tm-cube-image.js';
 
 import '@vaadin/vaadin-combo-box/vaadin-combo-box.js';
 
-import './tm-cube-play-view1.js';
-import './tm-cube-play-view2.js';
+import './tm-cube-play-cross.js';
+import './tm-cube-play-f2l.js';
+import './tm-cube-play-oll.js';
+import './tm-cube-play-pll.js';
 
 /**
  * @customElement
@@ -40,12 +43,25 @@ class TmCubePlay extends PolymerElement {
                     width:100%;
                     height:calc(100vh - 70px);
                 }
+                
+                tm-cube-image {
+                    display: inline-block;
+                    border: solid red 1px;
+                }
             </style>
             
+            
+                 <!--<tm-cube-image stickers="rbb rbb rrr | wwb wwb bbb | www rrw rrw"></tm-cube-image>-->
+
             <!--<tm-generic-app title="[[title]]" pages="[[pages]]" fullscreen login-required firebase-config="[[config]]">-->
             <tm-generic-app title="[[title]]" pages="[[pages]]" on-page-changed="_pageChanged">
-                  <tm-cube-play-view1 name="view1" slot="page"></tm-cube-play-view1>
-                  <tm-cube-play-view2 name="view2" slot="page"></tm-cube-play-view2>
+                <div class="test" name="test" slot="page">
+                     <tm-cube-image stickers="rbb rbb rrr | wwb wwb bbb | www rrw rrw"></tm-cube-image>
+                </div>
+                  <tm-cube-play-cross name="cross" slot="page"></tm-cube-play-cross>
+                  <tm-cube-play-f2l name="f2l" slot="page"></tm-cube-play-f2l>
+                  <tm-cube-play-oll name="oll" slot="page" colors="{{colors}}"></tm-cube-play-oll>
+                  <tm-cube-play-pll name="pll" slot="page" colors="{{colors}}"></tm-cube-play-pll>
             </tm-generic-app>
         `;
     }
@@ -71,8 +87,11 @@ class TmCubePlay extends PolymerElement {
             pages: {
                 type: Array,
                 value: [
-                    {name: 'view1', title: 'F2L'},
-                    {name: 'view2', title: 'OLL / PLL'}
+                    {name: 'test', title: 'test'},
+                    {name: 'cross', title: 'Cross'},
+                    {name: 'f2l', title: 'F2L'},
+                    {name: 'oll', title: 'OLL'},
+                    {name: 'pll', title: 'PLL'}
                 ]
             },
             config: {
@@ -85,6 +104,11 @@ class TmCubePlay extends PolymerElement {
                     storageBucket: "stunt-hamster.appspot.com",
                     messagingSenderId: "651006465873"
                 }
+            },
+            colors: {
+                type: String,
+                value: 'yyy yyy yyy | ooo ggg rrr bbb',
+                notify: true
             }
         };
     }

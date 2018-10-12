@@ -1,0 +1,21 @@
+[
+  {"name":"", "slot":"top",    "stickers": "yyy yyy yyy | ooo ggg rrr bbb", "arrows": "1>7,7>9,9>3,3>1,2>4,4>8,8>6,6>2"},
+  {"name":"", "slot":"top",    "stickers": "yyy yyy yyy | boo ggg rbb orr", "arrows": "1>7, 7>1, 4>8, 8>4"},
+  {"name":"", "slot":"top",    "stickers": "yyy yyy yyy | oog rbo grr bgb", "arrows": "3>9, 9>3, 6>4, 4>6"},
+  {"name":"", "slot":"top",    "stickers": "yyy yyy yyy | oog rro ggr bbb", "arrows": "3>9, 9>3, 6>8, 8>6"},
+  {"name":"", "slot":"top",    "stickers": "yyy yyy yyy | ooo ggg rrr bbb", "arrows": "1>3,3>9,9>7,7>1,2>6,6>8,8>4,4>2"},
+
+  {"name":"", "slot":"left",   "stickers": "", "arrows": ""},
+  {"name":"", "slot":"left",   "stickers": "", "arrows": ""},
+  {"name":"", "slot":"left",   "stickers": "", "arrows": ""},
+
+  {"name":"", "slot":"right",  "stickers": "", "arrows": ""},
+  {"name":"", "slot":"right",  "stickers": "", "arrows": ""},
+  {"name":"", "slot":"right",  "stickers": "", "arrows": ""},
+
+  {"name":"", "slot":"bottom",  "stickers": "yyy yyy yyy | gog rgb orr bbo", "arrows": "9>1,1>3,3>9"},
+  {"name":"", "slot":"bottom",  "stickers": "yyy yyy yyy | ooo gbg rgr brb", "arrows": "4>6, 6>8, 8>4"},
+  {"name":"", "slot":"bottom",  "stickers": "yyy yyy yyy | oro gbg ror bgb", "arrows": "2>8, 8>2, 4>6, 6>4"},
+  {"name":"", "slot":"bottom",  "stickers": "yyy yyy yyy | ooo grg rbr bgb", "arrows": "4>8, 8>6, 6>4"},
+  {"name":"", "slot":"bottom",  "stickers": "yyy yyy yyy | bob ogg rro gbr", "arrows": "7>3,3>1,1>"}
+]
