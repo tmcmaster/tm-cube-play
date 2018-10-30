@@ -5,6 +5,7 @@ import {} from '@polymer/polymer/lib/elements/dom-repeat.js';
 
 import '/node_modules/tm-generic-app/tm-generic-app.js';
 import '/node_modules/tm-cube-image/tm-cube-image.js';
+import '/node_modules/tm-animated-cube/tm-animated-cube.js';
 
 import '@vaadin/vaadin-combo-box/vaadin-combo-box.js';
 
@@ -12,6 +13,7 @@ import './tm-cube-play-cross.js';
 import './tm-cube-play-f2l.js';
 import './tm-cube-play-oll.js';
 import './tm-cube-play-pll.js';
+import './tm-cube-play-algs.js';
 
 /**
  * @customElement
@@ -48,6 +50,12 @@ class TmCubePlay extends PolymerElement {
                     display: inline-block;
                     border: solid red 1px;
                 }
+                
+                tm-animated-cube {
+                    width: 300px;
+                    height: 300px;
+                }
+                
             </style>
             
             
@@ -56,13 +64,18 @@ class TmCubePlay extends PolymerElement {
             <!--<tm-generic-app title="[[title]]" pages="[[pages]]" fullscreen login-required firebase-config="[[config]]">-->
             <tm-generic-app title="[[title]]" pages="[[pages]]" on-page-changed="_pageChanged">
                 <div class="test" name="test" slot="page">
-                     <tm-cube-image stickers="rbb rbb rrr | wwb wwb bbb | www rrw rrw"></tm-cube-image>
+                    <!--<tm-animated-cube scramble="" moves="R U"></tm-animated-cube>-->
+                     <!--<tm-cube-image stickers="rbb rbb rrr | wwb wwb bbb | www rrw rrw"></tm-cube-image>-->
+                     Testing
                 </div>
-                  <tm-cube-play-cross name="cross" slot="page"></tm-cube-play-cross>
-                  <tm-cube-play-f2l name="f2l" slot="page"></tm-cube-play-f2l>
-                  <tm-cube-play-oll name="oll" slot="page" colors="{{colors}}"></tm-cube-play-oll>
-                  <tm-cube-play-pll name="pll" slot="page" colors="{{colors}}"></tm-cube-play-pll>
+                <tm-cube-play-cross name="cross" slot="page"></tm-cube-play-cross>
+                <tm-cube-play-f2l name="f2l" slot="page"></tm-cube-play-f2l>
+                <tm-cube-play-oll name="oll" slot="page" colors="{{colors}}"></tm-cube-play-oll>
+                <tm-cube-play-pll name="pll" slot="page" colors="{{colors}}"></tm-cube-play-pll>
+                <tm-cube-play-algs name="algs" slot="page"></tm-cube-play-algs>
             </tm-generic-app>
+            
+            <paper-button toggles raised on-tap="_Selected"></paper-button>            
         `;
     }
 
@@ -78,6 +91,7 @@ class TmCubePlay extends PolymerElement {
         });
     }
 
+
     static get properties() {
         return {
             title: {
@@ -91,7 +105,8 @@ class TmCubePlay extends PolymerElement {
                     {name: 'cross', title: 'Cross'},
                     {name: 'f2l', title: 'F2L'},
                     {name: 'oll', title: 'OLL'},
-                    {name: 'pll', title: 'PLL'}
+                    {name: 'pll', title: 'PLL'},
+                    {name: 'algs', title: 'Algs'}
                 ]
             },
             config: {
@@ -112,13 +127,8 @@ class TmCubePlay extends PolymerElement {
             }
         };
     }
-    testing() {
-        console.log('-------------  YAY!!!!  ------------')
-    }
     ready() {
         super.ready();
-
-        window.addEventListener('show', () => this.testing());
     }
 }
 

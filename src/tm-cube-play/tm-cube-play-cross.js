@@ -67,10 +67,10 @@ class TmCubePlayCross extends PolymerElement {
     }
 
     _casesChanged(cases) {
-        console.log('--- CROSS cases have changed: ', cases);
+        //console.log('--- CROSS cases have changed: ', cases);
     }
     _colorsChanged(colors) {
-        console.log('--- F2L Colors Changed: ', colors);
+        //console.log('--- F2L Colors Changed: ', colors);
     }
 
     // refresh() {

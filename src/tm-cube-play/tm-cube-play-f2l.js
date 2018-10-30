@@ -68,10 +68,10 @@ class TmCubePlayF2l extends PolymerElement {
     }
 
     _casesChanged(cases) {
-        console.log('F2L cases hava changed: ', cases);
+        //console.log('F2L cases hava changed: ', cases);
     }
     _colorsChanged(colors) {
-        console.log('--- F2L Colors Changed: ', colors);
+        //console.log('--- F2L Colors Changed: ', colors);
     }
 
     // refresh() {

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "oll-headlights",
+    "stage": "oll",
+    "title": "Headlights",
+    "alg": ["F","R U R' U'", "F'"],
+    "cube": {
+      "stickers": "y_y ___ ___ | ___ ___ ___ | __y ___ __y"
+    },
+    "top": {
+      "stickers": "__y ___ __ y | ___ ___ ___ y_y",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-bruno",
+    "stage": "oll",
+    "title": "Bruno",
+    "alg": ["F", "( R U R' U' ) x2", "F'"],
+    "cube": {
+      "stickers": "y_y ___ ___ | __y ___ ___ | ___ ___ ___"
+    },
+    "top": {
+      "stickers": "___ ___ ___ | __y ___ y__ y_y",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-double-sune",
+    "stage": "oll",
+    "title": "Double Sune",
+    "alg": ["F", "( R U R' U' ) x3", "F'"],
+    "cube": {
+      "stickers": "___ ___ ___ | ___ ___ ___ | ___ ___ ___"
+    },
+    "top": {
+      "stickers": "___ ___ ___ | y_y ___ y_y ___",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-chameleon",
+    "stage": "oll",
+    "title": "Chameleon",
+    "alg": ["R U R' U'", "R' F R F'"],
+    "cube": {
+      "stickers": "___ ___ ___ | ___ ___ ___ | ___ ___ ___"
+    },
+    "top": {
+      "stickers": "__y ___ __y | y__ ___ __y ___",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-bow-tie",
+    "stage": "oll",
+    "title": "Bow Tie",
+    "alg": ["R U2 R' U'", "( R U R' U' ) x2", "R U' R'"],
+    "cube": {
+      "stickers": "___ ___ ___ | ___ ___ ___ | __y ___ y__"
+    },
+    "top": {
+      "stickers": "y__ ___ __y | __y ___ ___ y__",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-sune",
+    "stage": "oll",
+    "title": "Sune",
+    "alg": ["R U R' U", "R U2 R' U"],
+    "cube": {
+      "stickers": "y__ ___ ___ | __- ___ ___ | ___ ___ y__"
+    },
+    "top": {
+      "stickers": "___ ___ y__ | y__ y__ y__ ___",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-anti-sune",
+    "stage": "oll",
+    "title": "Anti-Sune",
+    "alg": ["R' U' R U'", "R' U' U' R"],
+    "cube": {
+      "stickers": "y__ ___ ___ | y__ ___ ___ | __y ___ ___"
+    },
+    "top": {
+      "stickers": "y__ ___ ___ | __y __y __y ___",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-121",
+    "stage": "oll",
+    "title": "121",
+    "alg": [],
+    "cube": {
+      "stickers": "___ ___ ___ | ___ ___ ___ | ___ ___ ___"
+    },
+    "top": {
+      "stickers": "y_y _yy yyy | _y_ ___ ___ _y_",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-mum",
+    "stage": "oll",
+    "title": "MUM",
+    "alg": [],
+    "cube": {
+      "stickers": "___ ___ ___ | ___ ___ ___ | ___ ___ ___"
+    },
+    "top": {
+      "stickers": "y_y yyy y_y | _y_ ___ _y_ ___",
+      "arrows": "",
+      "flips": ""
+    }
+  },
+  {
+    "name": "oll-22122",
+    "stage": "oll",
+    "title": "22122",
+    "alg": [],
+    "cube": {
+      "stickers": "___ ___ ___ | ___ ___ ___ | ___ ___ ___"
+    },
+    "top": {
+      "stickers": "y_y _y_ y_y | _y_ _y_ _y_ _y_",
+      "arrows": "",
+      "flips": ""
+    }
+  }
+]

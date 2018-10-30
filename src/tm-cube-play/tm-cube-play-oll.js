@@ -70,11 +70,11 @@ class TmCubePlayOll extends PolymerElement {
     }
 
     _casesChanged(cases) {
-        console.log('--- OLL cases have changed: ', cases);
+        //console.log('--- OLL cases have changed: ', cases);
     }
 
     _colorsChanged(colors) {
-        console.log('--- OLL colors Changed: ', colors);
+        //console.log('--- OLL colors Changed: ', colors);
     }
 
     _algSelected(e)
@@ -88,16 +88,13 @@ class TmCubePlayOll extends PolymerElement {
 
     connectedCallback() {
         super.connectedCallback();
-        console.log("------- tm-cube-play-view2 has been attached to the DOM.");
+        //console.log("------- tm-cube-play-view2 has been attached to the DOM.");
     }
 
 
     ready() {
         super.ready();
-
-
-        console.log('Good to go.');
-
+        //console.log('Good to go.');
     }
 }
 

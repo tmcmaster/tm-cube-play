@@ -102,16 +102,16 @@ class TmCubePlayPll extends PolymerElement {
     }
 
     _casesChanged(cases) {
-        console.log('--- PLL cases have changed: ', cases);
+        //console.log('--- PLL cases have changed: ', cases);
     }
 
     _colorsChanged(colors) {
-        console.log('--- PLL colors Changed: ', colors);
+        //console.log('--- PLL colors Changed: ', colors);
     }
 
     _algSelected(e)
     {
-        console.log('ALG SELECTED: ', e.detail);
+        //console.log('ALG SELECTED: ', e.detail);
         this.$.cube.arrows = e.detail.arrows;
         this.$.cube.flips = e.detail.flips;
         this.$.cube.move();
@@ -124,15 +124,14 @@ class TmCubePlayPll extends PolymerElement {
     // }
     connectedCallback() {
         super.connectedCallback();
-        console.log("------- tm-cube-play-view2 has been attached to the DOM.");
+        //console.log("------- tm-cube-play-view2 has been attached to the DOM.");
     }
 
 
     ready() {
         super.ready();
 
-        console.log('Good to go.');
-
+        //console.log('Good to go.');
     }
 }
 

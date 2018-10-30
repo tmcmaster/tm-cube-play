@@ -5,7 +5,8 @@
     "@polymer/iron-ajax": "^3.0.1",
     "@polymer/iron-resizable-behavior": "^3.0.1",
     "@polymer/polymer": "^3.0.0",
-    "@vaadin/vaadin-combo-box": "^4.2.0-alpha4",
+    "@vaadin/vaadin-combo-box": "^4.2.0-alpha5",
+    "tm-animated-cube": "github:tmcmaster/tm-animated-cube",
     "tm-aspect-div": "github:tmcmaster/tm-aspect-div",
     "tm-cube-image": "github:tmcmaster/tm-cube-image",
     "tm-generic-app": "github:tmcmaster/tm-generic-app"
